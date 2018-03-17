@@ -1,9 +1,16 @@
-// import React from 'react';
+import React from 'react';
+import { StackNavigator } from 'react-navigation';
 // import { StyleSheet, Text, View } from 'react-native';
 
 import Nav from './navigation';
 
-export default Nav;
+class AppRoot extends React.Component {
+  render() {
+    return <Nav />;
+  }
+}
+
+export default AppRoot;
 
 // export default Nav;
 
