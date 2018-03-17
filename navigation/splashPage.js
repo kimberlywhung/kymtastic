@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
+import MyCarousel from '../myCarousel';
+
 class SplashPage extends React.Component {
   render() {
     return (
@@ -28,6 +30,8 @@ class SplashPage extends React.Component {
           title="go to post quiz page"
           onPress={ () => this.props.navigation.navigate('postQuiz') }
         />
+
+        <MyCarousel />
       </View>
     );
   }
