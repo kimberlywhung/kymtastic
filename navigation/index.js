@@ -5,8 +5,8 @@ import { StackNavigator } from 'react-navigation';
 import SplashPage from './splashPage';
 import HomePage from './homePage';
 import InfoPage from './infoPage';
-import MapPage from './mapPage';
-import PostQuizPage from './postQuizPage'
+import MapStyle from './mapPage';
+import PostQuizPage from './postQuizPage';
 
 let routeMap, navOptions;
 
@@ -21,7 +21,7 @@ routeMap = {
     screen: InfoPage
   },
   map: {
-    screen: MapPage
+    screen: MapStyle
   },
   postQuiz: {
     screen: PostQuizPage
@@ -29,7 +29,7 @@ routeMap = {
 };
 
 navOptions = {
-  initialRouteName: 'splash'
+  initialRouteName: 'map'
 }
 
 let Nav = StackNavigator(routeMap, navOptions);

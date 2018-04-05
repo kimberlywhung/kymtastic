@@ -11,26 +11,6 @@ class SplashPage extends React.Component {
           Splash Page
         </Text>
 
-        <Button
-          title="go to home screen"
-          onPress={ () => this.props.navigation.navigate('home') }
-        />
-
-        <Button
-          title="go to info page"
-          onPress={ () => this.props.navigation.navigate('info') }
-        />
-
-        <Button
-          title="go to map page"
-          onPress={ () => this.props.navigation.navigate('map') }
-        />
-
-        <Button
-          title="go to post quiz page"
-          onPress={ () => this.props.navigation.navigate('postQuiz') }
-        />
-
         <MyCarousel />
       </View>
     );
