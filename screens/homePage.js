@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-class PostQuizPage extends React.Component {
+class HomePage extends Component {
   render() {
     return (
       <View>
         <Text>
-          This is the post quiz page
+          Home Page
         </Text>
       </View>
     );
   }
-}
+};
 
-export default PostQuizPage;
+export default HomePage;

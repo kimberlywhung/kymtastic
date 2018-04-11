@@ -1,37 +1,36 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+// import React from 'react';
+// import { View, Text } from 'react-native';
+// import { StackNavigator } from 'react-navigation';
+//
+// import { SplashPage, HomePage, InfoPage, MapStyle, PostQuizPage } from '../screens';
+//
+// let routeMap, navOptions;
+//
+// routeMap = {
+//   splash: {
+//     screen: SplashPage
+//   },
+//   home: {
+//     screen: HomePage
+//   },
+//   info: {
+//     screen: InfoPage
+//   },
+//   map: {
+//     screen: MapStyle
+//   },
+//   postQuiz: {
+//     screen: PostQuizPage
+//   }
+// };
+//
+// navOptions = {
+//   initialRouteName: 'postQuiz'
+// }
+//
+// let Nav = StackNavigator(routeMap, navOptions);
+//
+// export default Nav;
 
-import SplashPage from './splashPage';
-import HomePage from './homePage';
-import InfoPage from './infoPage';
-import MapStyle from './mapPage';
-import PostQuizPage from './postQuizPage';
-
-let routeMap, navOptions;
-
-routeMap = {
-  splash: {
-    screen: SplashPage
-  },
-  home: {
-    screen: HomePage
-  },
-  info: {
-    screen: InfoPage
-  },
-  map: {
-    screen: MapStyle
-  },
-  postQuiz: {
-    screen: PostQuizPage
-  }
-};
-
-navOptions = {
-  initialRouteName: 'map'
-}
-
-let Nav = StackNavigator(routeMap, navOptions);
-
-export default Nav;
+import PrimaryNav from './primaryNav';
+export default PrimaryNav;
